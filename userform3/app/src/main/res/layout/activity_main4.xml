@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="288dp"
+        android:layout_height="74dp"
+        android:text="Preferences"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="208dp"
+        android:layout_height="37dp"
+        android:text="Lifestyle preferences"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="106dp"
+        android:layout_height="113dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288">
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="93dp"
+            android:layout_height="36dp"
+            android:text="1.Smoking"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="93dp"
+            android:layout_height="37dp"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="94dp"
+            android:layout_height="37dp"
+            android:text="No" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="106dp"
+        android:layout_height="113dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288">
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="91dp"
+            android:layout_height="36dp"
+            android:text="2. Drinking"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="92dp"
+            android:layout_height="37dp"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="92dp"
+            android:layout_height="33dp"
+            android:text="No" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="116dp"
+        android:layout_height="179dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.979"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.322">
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="91dp"
+            android:layout_height="36dp"
+            android:text="3. Diet"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="92dp"
+            android:layout_height="37dp"
+            android:text="Veg" />
+
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="96dp"
+            android:layout_height="33dp"
+            android:text="Non-veg" />
+
+        <RadioButton
+            android:id="@+id/radio7"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:text="Vegan" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#095B0C"
+        android:text="save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.708" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="348dp"
+        android:layout_height="57dp"
+        android:cursorVisible="true"
+        android:text="I agree that all the information I filled is correct."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="66dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

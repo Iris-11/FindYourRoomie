@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">user form</string>
+    <string name="user_details">User details</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="basic_details">Basic details</string>
+    <string name="personal_details">Personal details</string>
+    <string name="enter_date_of_birth">Enter your date of birth</string>
+    <string name="company_name">Company Name</string>
+    <string name="enter_company_name">Enter company name</string>
+    <string name="job_title">Job Title</string>
+    <string name="enter_job_title">Enter job title</string>
+    <string name="college_name">College Name</string>
+    <string name="enter_college_name">Enter college name</string>
+    <string name="course">Course</string>
+    <string name="enter_course">Enter course</string>
+    <string-array name="occupation">
+        <item>Student</item>
+        <item>Working professional</item>
+        <item>Graduate</item>
+    </string-array>
+    <string-array name="age_range">
+        <item>18-22</item>
+        <item>23-25</item>
+        <item>26-30</item>
+        <item>30+</item>
+    </string-array>
+    <string name="dialog_name">Save Details</string>
+    <string name="dialog_message">Save and continue</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+</resources>
