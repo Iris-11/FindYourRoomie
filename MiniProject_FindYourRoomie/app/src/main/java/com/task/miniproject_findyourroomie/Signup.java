@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.nio.charset.StandardCharsets;
 import java.util.regex.*;
 
 
@@ -78,17 +79,18 @@ public class Signup extends AppCompatActivity {
                                     return;
                                 } else {
                                     try {
-                                        User newUser = new User(strUsername, strEmail, strPass);
+                                        User newUser = new User(strUsername, strEmail, strPass.getBytes(StandardCharsets.UTF_8));
                                         conn.addUser(newUser);
                                         Toast.makeText(Signup.this, "Successfully registered!", Toast.LENGTH_SHORT).show();
 
                                         // Start the Welcome activity
-                                        Intent i = new Intent(getApplicationContext(), Welcome.class);
+                                        Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                                        i.putExtra("email",strEmail);
                                         startActivity(i);
                                         finish(); // Close current activity
 
                                     } catch (Exception e) {
-                                        error.setText("Something went wrong!");
+                                        error.setText("Something went wrong!:"+e.getMessage());
                                         error.setTextColor(Color.parseColor("#F44336"));
                                         return;
                                         }
@@ -118,7 +120,7 @@ public class Signup extends AppCompatActivity {
             if (Character.isUpperCase(c)) hasUppercase = true;
             else if (Character.isLowerCase(c)) hasLowercase = true;
             else if (Character.isDigit(c)) hasDigit = true;
-            else if ("!@#$%^&+=".contains(String.valueOf(c))) hasSpecialChar = true;
+            else if ("!@#$%^&+=*".contains(String.valueOf(c))) hasSpecialChar = true;
             else if (Character.isWhitespace(c)) hasWhitespace = true;
         }
 

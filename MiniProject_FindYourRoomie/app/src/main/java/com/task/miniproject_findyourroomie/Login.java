@@ -12,6 +12,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Arrays;
+
 public class Login extends AppCompatActivity {
     EditText username, password;
     Button loginBtn;
@@ -28,45 +30,46 @@ public class Login extends AppCompatActivity {
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String strUname = username.getText().toString();
-                String strPwd = username.getText().toString();
-                if(strPwd.isEmpty() || strUname.isEmpty()){
+                DbConnect conn = new DbConnect(getApplicationContext());
+
+                String strUname = username.getText().toString().trim();
+                String strPwd = password.getText().toString().trim();
+
+                if (strPwd.isEmpty() || strUname.isEmpty()) {
                     error.setText("All fields required!");
                     error.setTextColor(Color.parseColor("#F44336"));
                     return;
-                }
-                else{
-                    DbConnect conn = new DbConnect(getApplicationContext());
+                } else {
                     User thisUser = conn.getUserByName(strUname);
-                    if(thisUser==null){
+                    if (thisUser == null) {
                         error.setText("Username does not exist!");
                         error.setTextColor(Color.parseColor("#F44336"));
                         return;
-                    }
-                    else{
-                        String storedHashedPwd = thisUser.getPassword();
-                        String storedSalt = thisUser.getSalt();
-                        String[] hashedEntered = conn.encrypt(strPwd,storedSalt);
-                        String hashedPwd = hashedEntered[1];
-                        if(!hashedPwd.equals(storedHashedPwd)){
-                            error.setText("Incorrect Password!");
+                    } else {
+                        System.out.println(thisUser.getUsername()+" pwd:"+ Arrays.toString(thisUser.getPassword()) +" salt:"+ Arrays.toString(thisUser.getSalt()));
+                        try {
+                            byte[] storedHashedPwd = thisUser.getPassword();
+                            byte[] storedSalt = thisUser.getSalt();
+                            if(conn.passwordMatch(strPwd,storedSalt,storedHashedPwd)){
+                                Toast.makeText(getApplicationContext(), "Successfully Logged in!", Toast.LENGTH_SHORT).show();
+                                // Intent to Home activity instead of ProfileMenu
+                                Intent i = new Intent(getApplicationContext(), ProfileMenu.class);
+                                startActivity(i);
+                                finish();
+                            }
+                            else{
+                                error.setText("Incorrect Password!");
+                                error.setTextColor(Color.parseColor("#F44336"));
+                                return;
+                            }
+                        } catch (Exception e) {
+                            error.setText("An error occurred. Please try again.");
                             error.setTextColor(Color.parseColor("#F44336"));
-                            return;
-                        }
-                        else{
-                            /*Toast.makeText(getApplicationContext(), "Successfully Logged in!", Toast.LENGTH_SHORT).show();
-                            Intent i = new Intent(getApplicationContext(), Home.class);
-                            startActivity(i);
-                            finish(); getting issue of no toast and redirection to welcome instead of home*/
-                            Toast.makeText(Login.this, "Successfully Logged in!", Toast.LENGTH_SHORT).show();
-                            Intent i2 = new Intent(getApplicationContext(), Home.class);
-                            startActivity(i2);
-                            finish();
-
                         }
                     }
                 }
             }
         });
+
     }
 }

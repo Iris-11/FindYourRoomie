@@ -13,6 +13,30 @@
         android:theme="@style/Theme.MiniProject_FindYourRoomie"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".navbar"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileMenu"
+            android:exported="false" />
+        <activity
+            android:name=".UserForm_page4"
+            android:exported="false" />
+        <activity
+            android:name=".UserForm_page3"
+            android:exported="false" />
+        <activity
+            android:name=".UserForm_page2"
+            android:exported="false" />
+        <activity
+            android:name=".UserForm_page1"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity
