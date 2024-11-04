@@ -16,7 +16,7 @@ import java.util.Arrays;
 
 public class Login extends AppCompatActivity {
     EditText username, password;
-    Button loginBtn;
+    Button loginBtn,backBtn;
     TextView error;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class Login extends AppCompatActivity {
         password = findViewById(R.id.password);
         loginBtn = findViewById(R.id.loginBtn);
         error = findViewById(R.id.errorInfoLogin);
-
+        backBtn = findViewById(R.id.button);
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -68,6 +68,13 @@ public class Login extends AppCompatActivity {
                         }
                     }
                 }
+            }
+        });
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent back = new Intent(Login.this,Welcome.class);
+                startActivity(back);
             }
         });
 

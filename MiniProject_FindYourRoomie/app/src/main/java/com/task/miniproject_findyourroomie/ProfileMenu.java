@@ -1,5 +1,6 @@
 package com.task.miniproject_findyourroomie;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -11,6 +12,7 @@ import android.widget.Toolbar;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -20,26 +22,26 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import com.google.android.material.navigation.NavigationView;
 
 public class ProfileMenu extends AppCompatActivity {
-    ImageButton profile_btn, nav_btn;
+    ImageButton profile_btn,nav_btn;
     private DrawerLayout drawerLayout;
-    boolean isMenuOpen = false;
-
+    boolean isMenuOpen=false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_profile_menu);
-        profile_btn = findViewById(R.id.imageButton);
-        nav_btn = findViewById(R.id.imageButton1);
+        profile_btn=findViewById(R.id.imageButton);
+        nav_btn=findViewById(R.id.imageButton1);
 
         nav_btn.setImageResource(R.drawable.menu);
 
-/*        nav_btn.setOnClickListener(new View.OnClickListener() {
+        nav_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (!isMenuOpen) {
+                if(!isMenuOpen){
                     showMenu();
-                } else {
+                }
+                else{
                     closeMenu();
                 }
             }
@@ -65,7 +67,29 @@ public class ProfileMenu extends AppCompatActivity {
                             return true;
                         }
                         else if(id == R.id.logout_menu){
-                            Toast.makeText(ProfileMenu.this, "You clicked on logout", Toast.LENGTH_SHORT).show();
+                            AlertDialog.Builder builder = new AlertDialog.Builder(ProfileMenu.this);
+                            builder.setMessage("Do you want to logout?")
+                                    .setCancelable(false)
+
+
+                                    .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                                        public void onClick(DialogInterface dialog, int id) {
+                                            finish();
+                                            Intent logout = new Intent(getApplicationContext(), Welcome.class);
+                                            startActivity(logout);
+                                        }
+                                    })
+                                    .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                                        public void onClick(DialogInterface dialog, int id) {
+                                            //  Action for 'NO' Button
+                                            dialog.cancel();
+                                        }
+                                    })
+                                    .setTitle("Logout")
+                                    .setIcon(R.drawable.logout);
+                            //Creating dialog box
+                            AlertDialog alert = builder.create();
+                            alert.show();
                             return true;
                         }
                         else{
@@ -120,8 +144,5 @@ public class ProfileMenu extends AppCompatActivity {
         isMenuOpen=false;
         nav_btn.setImageResource(R.drawable.menu);
 
-    }
-
- */
     }
 }

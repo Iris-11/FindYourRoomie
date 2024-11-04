@@ -18,7 +18,7 @@ import java.util.regex.*;
 
 public class Signup extends AppCompatActivity {
     EditText username,email,password,confirmPassword;
-    Button signupBtn;
+    Button signupBtn,backBtn;
     TextView error;
 
     @Override
@@ -34,6 +34,7 @@ public class Signup extends AppCompatActivity {
         password = findViewById(R.id.password);
         confirmPassword = findViewById((R.id.confirmPassword));
         signupBtn = findViewById(R.id.signupBtn);
+        backBtn = findViewById(R.id.button);
 
         signupBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -102,7 +103,13 @@ public class Signup extends AppCompatActivity {
                 }
 
         });
-
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent back = new Intent(Signup.this,Welcome.class);
+                startActivity(back);
+            }
+        });
     }
 
     private boolean isValidPassword(String strPass) {

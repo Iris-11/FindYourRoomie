@@ -6,18 +6,23 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.MiniProject_FindYourRoomie"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".HomePage"
             android:exported="false" />
         <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
             android:name=".MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:noHistory="true" />
         <activity
             android:name=".navbar"
             android:exported="false" />
@@ -25,29 +30,17 @@
             android:name=".ProfileMenu"
             android:exported="false" />
         <activity
-            android:name=".UserForm_page4"
-            android:exported="false" />
-        <activity
-            android:name=".UserForm_page3"
-            android:exported="false" />
-        <activity
-            android:name=".UserForm_page2"
-            android:exported="false" />
-        <activity
-            android:name=".UserForm_page1"
-            android:exported="false" />
-        <activity
-            android:name=".Home"
-            android:exported="false" />
-        <activity
             android:name=".Signup"
-            android:exported="false" />
+            android:exported="false"
+            android:noHistory="true" />
         <activity
             android:name=".Login"
-            android:exported="false" />
+            android:exported="false"
+            android:noHistory="true" />
         <activity
             android:name=".Welcome"
-            android:exported="true">
+            android:exported="true"
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
