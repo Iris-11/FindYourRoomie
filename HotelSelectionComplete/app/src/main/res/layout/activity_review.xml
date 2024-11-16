@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Review Input Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Review"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/reviewEditText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="18sp"
+        android:hint="Write your review here"
+        android:background="@android:color/holo_blue_light"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="textMultiLine"
+        android:gravity="top|start" />
+
+    <Button
+        android:id="@+id/submitReviewButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Review"
+        android:textSize="18sp"
+
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reviews"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="8dp"/>
+
+    <ListView
+        android:id="@+id/reviewListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFCCCC"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1dp"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="18sp"
+
+        android:textColor="@android:color/white"
+        android:padding="12dp"/>
+
+</LinearLayout>
