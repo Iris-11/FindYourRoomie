@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MiniProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".ReviewsChoice"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewForHostel"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayReviews"
+            android:exported="false" />
+        <activity
+            android:name=".TakeHostelName"
+            android:exported="false" />
+        <activity
+            android:name=".Forum"
+            android:exported="false" />
+        <activity
+            android:name=".OnetoOneChat"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name="cardview.CardViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OTP_auth"
+            android:exported="false" />
+        <activity
+            android:name=".Maps"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileDisplay"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayMatches"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".navbar"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileMenu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:noHistory="true" />
+        <activity
+            android:name=".Welcome"
+            android:exported="true"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
