@@ -46,7 +46,9 @@ public class DbConnect extends SQLiteOpenHelper {
     public DbConnect(@Nullable Context context) {
         super(context, dbName, null, dbVersion);
     }
-
+    public String getTableName(){
+        return dbTable;
+    }
     @Override
     public void onCreate(SQLiteDatabase db) {
         String query = "create table " + dbTable + "("+ID+" INTEGER PRIMARY KEY AUTOINCREMENT, "+

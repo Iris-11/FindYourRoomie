@@ -37,20 +37,22 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
-        android:layout_width="367dp"
-        android:layout_height="352dp"
+        android:layout_width="362dp"
+        android:layout_height="426dp"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="20sp"
         app:contentPadding="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.432">
 
         <TextView
             android:id="@+id/details"
-            android:layout_width="325dp"
-            android:layout_height="303dp"
+            android:layout_width="327dp"
+            android:layout_height="299dp"
             android:textColor="@color/darkBlue"
             android:textSize="24sp" />
     </androidx.cardview.widget.CardView>
@@ -67,6 +69,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="225dp"
+        android:layout_height="57dp"
+        android:backgroundTint="@color/Red"
+        android:text="Delete Your Account"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnback"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        app:layout_constraintVertical_bias="0.158" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
