@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Main Title -->
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Chat Application"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Start Chat Button -->
+    <Button
+        android:id="@+id/buttonStartChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Chat"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FF9800"
+        android:layout_centerInParent="true"
+        android:padding="12dp" />
+</RelativeLayout>
