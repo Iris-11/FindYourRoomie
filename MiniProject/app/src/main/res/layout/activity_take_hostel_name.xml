@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#009688"
+    android:background="#008080"
     tools:context=".TakeHostelName">
 
     <EditText
@@ -24,8 +24,8 @@
         android:id="@+id/button"
         android:layout_width="314dp"
         android:layout_height="68dp"
-        android:backgroundTint="#FF5722"
-        android:text="Button"
+        android:backgroundTint="@color/Orange"
+        android:text="Search Reviews"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.567"

@@ -5,25 +5,32 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#009688"
-    android:backgroundTint="@color/design_default_color_secondary_variant"
     tools:context=".DisplayReviews">
 
-    <ListView
-        android:id="@+id/list_view"
-        android:layout_width="346dp"
-        android:layout_height="544dp"
-        android:background="#FFFFFF"
+    <TextView
+        android:id="@+id/headingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alexandria"
+        android:text="User Reviews"
+        android:textColor="#ffa500"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#008080"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="72dp"
-            android:layout_height="24dp"
-            android:text="TextView" />
-    </ListView>
-
+        app:layout_constraintTop_toBottomOf="@id/headingText"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

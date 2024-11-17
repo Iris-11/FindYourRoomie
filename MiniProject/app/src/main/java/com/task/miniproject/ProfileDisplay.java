@@ -23,8 +23,9 @@ public class ProfileDisplay extends AppCompatActivity {
     ImageButton back;
     TextView display;
     Button del;
-    SQLiteDatabase db;
+    SQLiteDatabase db,db1;
     DbConnect dbconnect;
+    ChatDbHelper cdbhelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,9 +56,12 @@ public class ProfileDisplay extends AppCompatActivity {
         });
 
         dbconnect = new DbConnect(this);
-        db = dbconnect.getReadableDatabase();
+        db = dbconnect.getWritableDatabase();
         Matching m = new Matching(db);
         User u = m.getUserDetails(uname);
+
+        cdbhelper = new ChatDbHelper(this);
+        db1 = cdbhelper.getWritableDatabase();
 
         StringBuilder sb = new StringBuilder();
         sb.append("Name: ").append(u.getName()).append("\n")
@@ -79,6 +83,7 @@ public class ProfileDisplay extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int whichButton) {
                         String confirm = editTextName1.getText().toString();
                         if (confirm.trim().equalsIgnoreCase("delete")) {
+                            int row1 = db1.delete(ChatDbHelper.CHATS_TABLE_NAME,"incoming_msg_id=? OR outgoing_msg_id=?", new String[]{u.getName(),u.getName()});
                             int rows = db.delete(dbconnect.getTableName(), "email=?", new String[]{u.getEmail()});
                             if (rows > 0) {
                                 Toast.makeText(ProfileDisplay.this, "Your data has been deleted", Toast.LENGTH_SHORT).show();
