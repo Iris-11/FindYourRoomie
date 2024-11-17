@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">583856260800</string>
+    <string name="google_api_key" translatable="false">AIzaSyBZ3Rz15RlM5faTG0yTGbzS7GXHUrV5SSA</string>
+    <string name="google_app_id" translatable="false">1:583856260800:android:8f76dba6f5a012c9c1cf25</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBZ3Rz15RlM5faTG0yTGbzS7GXHUrV5SSA</string>
+    <string name="google_storage_bucket" translatable="false">findyourroomie-eab53.firebasestorage.app</string>
+    <string name="project_id" translatable="false">findyourroomie-eab53</string>
+</resources>

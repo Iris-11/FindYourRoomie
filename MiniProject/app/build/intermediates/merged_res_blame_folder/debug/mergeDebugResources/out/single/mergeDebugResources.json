@@ -1,0 +1,322 @@
+[
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_roomies.jpg.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\roomies.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_founder3.jpg.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\founder3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_commerce.png.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\commerce.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_oneto_one_chat.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_oneto_one_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_item_match.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\item_match.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_reviews_choice.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_reviews_choice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_roomie.jpg.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\roomie.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_img_1.png.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\img_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_message_item.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\message_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\menu_navigation_menu.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\menu\\navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_backarrow.png.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\backarrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_custom_input.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\custom_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_homepagegif.gif.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\homepagegif.gif"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_backbtn.jpg.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\backbtn.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_forum.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_forum.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_received_message_background.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\received_message_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_img.png.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\img.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_welcome.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_img_2.png.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\img_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_explorer.jpg.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\explorer.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_baseline_check_circle_24_2.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\baseline_check_circle_24_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_fwdarrow.png.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\fwdarrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_take_hostel_name.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_take_hostel_name.xml"
+    },
+    {
+        "merged": "com.task.miniproject.app-debug-41:/layout_review_item.xml.flat",
+        "source": "com.task.miniproject.app-main-43:/layout/review_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_logo_final.png.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\logo_final.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\menu_profile_menu.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\menu\\profile_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_baseline_check_circle_24.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\baseline_check_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_card_view.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_card_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_review_for_hostel.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_review_for_hostel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_sent_message_background.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\sent_message_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_recyclerview_border.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\recyclerview_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_display_matches.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_display_matches.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_menu.png.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_founders.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\founders.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_baseline_attach_email_24.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\baseline_attach_email_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_bg.jpg.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\bg.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_maps.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_founder2.jpg.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\founder2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_profile.jpg.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\profile.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\font_alexandria.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\font\\alexandria.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_lock.png.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\lock.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_navbar.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_navbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_user.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_profile_display.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_profile_display.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_home_page.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_send_button_background.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\send_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\baseline_lock_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_hostelsmall.jpg.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\hostelsmall.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_display_reviews.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_display_reviews.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_password.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_profile_menu.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_profile_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_img_3.png.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\img_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_rating.png.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\rating.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_logout.png.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\logout.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_review_item.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\review_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\drawable_founder1.jpg.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\drawable\\founder1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-debug-41:\\layout_activity_otp_auth.xml.flat",
+        "source": "C:\\Users\\Ishan\\.gradle\\daemon\\8.7\\com.task.miniproject.app-main-43:\\layout\\activity_otp_auth.xml"
+    }
+]
